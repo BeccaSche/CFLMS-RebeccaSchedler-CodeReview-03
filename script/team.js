@@ -30,11 +30,11 @@ addTeam(){
 }
 
 let employees = [
-new employee("Kermit the Frog", "CEO", "kermit@cfinsurance.at", "Singing", "../img/kermit.jpg"),
-new employee("Miss Piggy", "CFO", "piggy@cfinsurance.at", "Reading", "../img/misspiggy.jpg"),
-new employee("Fozzy the Bear", "Consultant", "fozzy@cfinsurance.at", "Golfing", "../img/fozzy.jpg"),
-new employee("Gonzo", "Technical Advisor", "gonzo@cfinsurance.at", "Cooking", "../img/gonzo.jpg"),
-new employee("Animal", "Head of Marketing", "animal@cfinsurance.at", "Painting", "../img/animal.jpg")
+new employee("Kermit the Frog", "CEO", "kermit@cfinsurance.at", "Singing", "./img/kermit.jpg"),
+new employee("Miss Piggy", "CFO", "piggy@cfinsurance.at", "Reading", "./img/misspiggy.jpg"),
+new employee("Fozzy the Bear", "Consultant", "fozzy@cfinsurance.at", "Golfing", "./img/fozzy.jpg"),
+new employee("Gonzo", "Technical Advisor", "gonzo@cfinsurance.at", "Cooking", "./img/gonzo.jpg"),
+new employee("Animal", "Head of Marketing", "animal@cfinsurance.at", "Painting", "./img/animal.jpg")
 ];
 
 for (let member of employees){
